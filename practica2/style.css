@@ -1,0 +1,45 @@
+.cuadriculas {
+max-width: 940px;
+margin: 0 auto;
+display: grid;
+grid-template-columns: repeat(3,1fr);
+grid-gap: 10px;
+grid-auto-rows: minmax(100px,auto);
+
+}
+
+.uno{
+    grid-column: 1/3;
+    grid-row: 1;
+    background-color: chartreuse;
+}
+
+.dos{
+    grid-column: 2/4;
+    grid-row: 1/3;
+    background-color: chocolate;
+}
+
+.tres{
+    grid-column: 1;
+    grid-row: 2/5;
+    background-color: crimson;
+}
+
+.cuatro{
+    grid-column: 3;
+    grid-row: 3;
+    background-color: tomato;
+}
+
+.cinco{
+    grid-column: 2;
+    grid-row: 4;
+    background-color: darkorange;
+}
+
+.seis{
+    grid-column: 3;
+    grid-row: 4;
+    background-color: deeppink;
+}
