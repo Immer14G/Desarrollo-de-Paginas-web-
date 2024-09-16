@@ -1,0 +1,17 @@
+/* Estilos personalizados para el acordeón */
+.accordion-button {
+    background-color: #e04778; /* Cambia el color de fondo del botón del acordeón */
+    color: white; /* Cambia el color del texto del botón del acordeón */
+    border-radius: 0.25rem; /* Cambia el radio de los bordes del botón */
+  }
+  
+  .accordion-button:not(.collapsed) {
+    background-color: #c25ebe; /* Cambia el color de fondo cuando el acordeón está abierto */
+    color: white; /* Cambia el color del texto cuando el acordeón está abierto */
+  }
+  
+  .accordion-body {
+    background-color: #f8f9fa; /* Cambia el color de fondo del cuerpo del acordeón */
+    border: 1px solid #ddd; /* Añade un borde al cuerpo del acordeón */
+    border-radius: 0.25rem; /* Cambia el radio de los bordes del cuerpo del acordeón */
+  }

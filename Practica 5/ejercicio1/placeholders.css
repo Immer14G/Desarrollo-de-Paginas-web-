@@ -1,0 +1,36 @@
+/* Estilos personalizados para cada card */
+.card {
+    margin: 20px;
+    border-radius: 10px;
+    box-shadow: 8px 4px 8px rgba(0, 0, 0, 0.1);
+    height: 500px; /* Fijar la altura de las cards */
+    overflow: hidden; /* Ocultar el contenido que excede el tamaño de la card */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between; /* Asegura que el contenido y el botón se distribuyan correctamente */
+  }
+  
+  /* Ajustar la imagen para que ocupe un espacio fijo */
+  .card-img-top {
+    height: 200px; /* Fijar la altura de la imagen */
+    width: 100%;
+    object-fit: cover; /* Para que la imagen se adapte y mantenga sus proporciones */
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+  }
+  
+  /* Limitar el tamaño del contenido dentro de la card */
+  .card-body {
+    padding: 20px;
+    flex-grow: 1; /* Permite que el contenido ocupe el espacio restante */
+    overflow-y: auto; /* Agrega scroll si el texto es demasiado largo */
+  }
+  
+  /* Estilos personalizados para el botón */
+  .card-body .btn {
+    margin-top: 10px;
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    text-align: center;
+  }
