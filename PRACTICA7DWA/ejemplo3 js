@@ -1,0 +1,12 @@
+const estudiante = {
+  nombre:"Immer",
+  edad:20,
+  direccion:{
+  calle:"principal barrio del lado",
+  ciudad:"San miguel"
+},
+   materia:["matematica","fisica"]
+};
+
+console.log(estudiante.direccion.ciudad);
+console.log(estudiante.materia[1])
