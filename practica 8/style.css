@@ -1,0 +1,63 @@
+/* Estilos para el contenedor */
+#contenedor {
+    width: 50%;
+    margin: 0 auto;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Estilo para el título */
+h1 {
+    color: rgb(1, 29, 20);
+}
+
+/* Estilo para el campo de entrada de nueva tarea */
+#nuevaTarea {
+    width: 70%;
+    padding: 10px;
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+
+/* Estilo para el botón agregar */
+#agregar {
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+/* Estilo para la lista de tareas */
+#listaTareas {
+    list-style-type: none;
+    padding: 10px;
+}
+
+/* Estilo para cada tarea */
+.tarea {
+    padding: 10px;
+    margin-bottom: 10px;
+    background-color: rgb(116, 152, 224);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* Estilos para los botones */
+.button {
+    margin-left: 10px;
+    padding: 5px 10px;
+    border: none;
+    cursor: pointer;
+}
+
+/* Estilo para el botón eliminar */
+.eliminarBTN {
+    background-color: #660500;
+    color: white;
+}
+
+/* Estilo para el botón modificar */
+.modificarBTN {
+    background-color: #4CAF50;
+    color: white;
+}
